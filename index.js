@@ -26,12 +26,6 @@ fs.readFile(file, { encoding: 'utf8' }, (err, data) => {
                 }
 
             }
-
-            // for(let i=0;i<=arr.length-1;i++){
-            //     if(arr[i]==value){
-            //         count++
-            //     }
-            // }
         }
     }
     console.log(count)
